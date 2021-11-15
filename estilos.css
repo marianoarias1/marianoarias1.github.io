@@ -1,0 +1,130 @@
+* {
+    padding: 0mm;
+    margin: 0mm;
+}
+
+
+#titulo {
+    color: #FCFBFB;
+    background-color: #181515;
+    width: 100vw;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.7;
+    font-weight: 100;
+    text-align: center;
+}
+
+.titulo-h2{
+    color: #FCFBFB;
+    background-color: #181515;
+    width: 100vw;
+    font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+}
+
+.parrafo{
+    margin-top: 16px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.input{
+    scroll-margin-left: auto;
+}
+
+.la_fecha{
+    float: right;
+}
+
+.contenedor{
+    margin: auto;
+    background-color: #FCFBFB;
+    width: 800px;
+    padding: 30px;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+ul.slider li{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    background-color: #FCFBFB;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+    margin: auto;
+    display: block;
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+#instagram{
+    position: absolute;
+    bottom: -100%;
+    display: inline-block;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+#facebook{
+    position: absolute;
+    bottom: -100%;
+    display: inline-block;
+    padding: 6px;
+    width: 41px;
+    height: 41px;
+    margin-left: 60px;
+}
