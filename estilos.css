@@ -26,6 +26,27 @@
     text-align: center;
 }
 
+.form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181515;
+  }
+
+.form input {
+    width: 550px;
+    height: 30px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 60px;
+    text-align: center;
+}
+
+
+
 .parrafo{
     margin-top: 16px;
     font-family: 'Mohave', sans-serif;
@@ -33,12 +54,13 @@
     font-weight: 800;
 }
 
-.input{
-    scroll-margin-left: auto;
-}
+
 
 .la_fecha{
     float: right;
+    font-family: 'Mohave', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 .contenedor{
@@ -77,6 +99,7 @@ ul.slider li img{
     height: 500px;
     width: auto;
     object-fit: cover;
+    border-radius: 6%;
 }
 
 ul.slider li:first-child{
@@ -104,9 +127,9 @@ ul.slider li:target{
     text-decoration: none;
     background-color: grey;
     padding: 10px;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
     border-radius: 100%;
 }
 
@@ -115,24 +138,26 @@ ul.slider li:target{
     bottom: -100%;
     display: inline-block;
     padding: 2px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
+    border-radius: 20%;
 }
 
 #facebook{
     position: absolute;
     bottom: -100%;
     display: inline-block;
-    padding: 6px;
-    width: 41px;
-    height: 41px;
+    padding: 3px;
+    width: 43px;
+    height: 43px;
     margin-left: 60px;
     object-fit: cover;
+    border-radius: 20%;
 }
 
 .franja{
-    height: 150px;
+    height: 70px;
     width: 100%;
     background-color: #181515;
     color: #181515;
